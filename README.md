@@ -25,4 +25,6 @@ Pour utiliser le site web, l'utilisateur doit simplement naviguer sur le site et
 
 ## Installation et exécution
 
+Toutes les librairies sont stockées en local dans les fichiers du projets.
+
 Il suffit uniquement d'avoir Flask d'installé sur son ordinateur, et de faire un "python app.py" dans le répertoire "Summer Olympics Medals"
