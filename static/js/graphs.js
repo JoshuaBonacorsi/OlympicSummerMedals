@@ -58,7 +58,7 @@ function makeGraphs(error, preprocdataJson, worldJson) {
 	var numMBSChart = dc.numberDisplay("#total-medals-nd");
 	var numABSChart = dc.numberDisplay("#total-athletes-nd");
 	var cityChart = dc.barChart("#city-chart")
-	var yearChart2 = dc.lineChart("#year-chart")
+	var yearChart2 = dc.lineChart("#year2-chart")
 
 
 	yearChart
