@@ -10,6 +10,7 @@ Le site permet de naviguer à travers les données et d'explorer différents asp
 ## Dataset
 
 Le dataset utilisé est le "Summer Olympics Medals" dataset sur Kaggle. 
+
 Il provient de https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals, avec des informations sur les médaillés des jeux olympiques d'été entre 1976 et 2008. Le dataset a été prétraité et nettoyé en python avant d'être utilisé pour le site web.
 
 ## Librairies utilisées
