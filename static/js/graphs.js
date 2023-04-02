@@ -62,7 +62,7 @@ function makeGraphs(error, preprocdataJson, worldJson) {
 
 
 	yearChart
-		.width(1200)
+		.width(700)
 		.height(300)
 		.margins({top: 10, right: 50, bottom: 30, left: 50})
 		.dimension(yearDim)
@@ -74,7 +74,7 @@ function makeGraphs(error, preprocdataJson, worldJson) {
 		.yAxis().ticks(4);
 
 	medalChart
-		.width(430)
+		.width(300)
 		.height(250)
         .dimension(medalDim)
         .group(numByMedal)
@@ -88,7 +88,7 @@ function makeGraphs(error, preprocdataJson, worldJson) {
         .xAxis().ticks(4);
 		
 	cityChart
-		.width(900)
+		.width(700)
 		.height(400)
         .dimension(cityDim)
         .group(numByCity)
@@ -102,7 +102,7 @@ function makeGraphs(error, preprocdataJson, worldJson) {
         .yAxis().ticks(4);
 
 	yearChart2
-		.width(1250)
+		.width(700)
 		.height(400)
         .dimension(yearDim)
         .group(athleteByYear)
@@ -118,7 +118,7 @@ function makeGraphs(error, preprocdataJson, worldJson) {
         .yAxis().ticks(4);
 
 	genderChart
-        .width(420)
+        .width(300)
         .height(250)
         .dimension(genderDim)
 		.colors(["#211193","#D693E5"])
@@ -128,7 +128,7 @@ function makeGraphs(error, preprocdataJson, worldJson) {
             return d.data.key + ": " + percent + "%";});
 
 	sportChart
-		.width(900)
+		.width(700)
 		.height(800)
 		.dimension(sportDim)
 		.group(numBySport)
@@ -139,7 +139,7 @@ function makeGraphs(error, preprocdataJson, worldJson) {
 			"#FF65B7", "#FF5CAE", "#FF54A6", "#FF4B9E", "#FF4396"])
 		.xAxis().ticks(4);
 
-	worldChart.width(1250)
+	worldChart.width(700)
 		.height(400)
 		.dimension(countryDim)
 		.group(numByCountry)
