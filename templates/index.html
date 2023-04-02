@@ -26,60 +26,73 @@
       <div class="col-sm-6">
         <div class="row">
 
-          <!-- Time Chart --> 
+          <!-- Year Chart --> 
           <div class="col-sm-12">
             <div class="chart-wrapper">
               <div class="chart-title">
                 Number of Medals
               </div>
               <div class="chart-stage">
-                <div id="time-chart"></div>
+                <div id="year-chart"></div>
               </div>
             </div>
           </div>
-          <!-- Time Chart --> 
+          <!-- Year Chart --> 
 
-          <!-- Resources Pie -->
+          <!-- Gender Pie -->
           <div class="col-sm-6">
             <div class="chart-wrapper">
               <div class="chart-title">
-                Gender
+                Medals by Gender
               </div>
               <div class="chart-stage">
-                <div id="resource-type-row-chart"></div>
+                <div id="gender-chart"></div>
               </div>
             </div>
           </div>
-          <!-- Resources Pie -->
+          <!-- Gender Pie -->
 
-          <!-- Poverty Pie -->
+          <!-- Medal Chart -->
           <div class="col-sm-6">
             <div class="chart-wrapper">
               <div class="chart-title">
-                Medal level
+                Medals by Level
               </div>
               <div class="chart-stage">
-                <div id="poverty-level-row-chart"></div>
+                <div id="medal-chart"></div>
               </div>
             </div>
           </div>
-          <!-- Poverty Pie -->
+          <!-- Medal Chart -->
+
+          <!-- Sport Chart -->
+          <div class="col-sm-12">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                Medals by Sports
+              </div>
+              <div class="chart-stage">
+                <div id="sport-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Sport Chart -->
 
         </div>
       </div>
 
-      <!-- Map -->  
+      <!-- World Chart -->  
       <div class="col-sm-6">
         <div class="chart-wrapper">
           <div class="chart-title">
             Distribution of medals
           </div>
           <div class="chart-stage">
-            <div id="us-chart"></div>
+            <div id="world-chart"></div>
           </div>
         </div>
       </div>
-      <!-- Map -->
+      <!-- World Chart -->
 
       <!-- Metric 1 -->
       <div class="col-sm-3">
@@ -88,7 +101,7 @@
             Total Number of Medals
           </div>
           <div class="chart-stage">
-            <div id="number-projects-nd"></div>
+            <div id="total-medals-nd"></div>
           </div>
         </div>
       </div>
@@ -101,28 +114,54 @@
             Total Number of Athletes
           </div>
           <div class="chart-stage">
-            <div id="total-donations-nd"></div>
+            <div id="total-athletes-nd"></div>
           </div>
         </div>
       </div>
       <!-- Metric 2 -->
+
+      <!-- City Chart -->  
+      <div class="col-sm-6">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Medals by City
+          </div>
+          <div class="chart-stage">
+            <div id="city-chart"></div>
+          </div>
+        </div>
+      </div>
+      <!-- City Chart -->
+
+      <!-- Year Chart 2 -->  
+      <div class="col-sm-6">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Athletes by Year
+          </div>
+          <div class="chart-stage">
+            <div id="year-chart"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Year Chart 2 -->
 
     </div>
 
   </div>
 
     <hr>
-    <p class="small text-muted">BONACORSI Joshua</p>
+    <p class="small text-muted">BONACORSI Joshua & MARTIN Erwan</p>
 
   </div>
 
+  <script src="{{ url_for('static', filename='lib/js/queue.js') }}"></script>
+  <script src="{{ url_for('static', filename='lib/js/keen.min.js') }}"></script>
   <script src="{{ url_for('static', filename='lib/js/jquery.min.js') }}"></script>
   <script src="{{ url_for('static', filename='lib/js/bootstrap.min.js') }}"></script>
   <script src="{{ url_for('static', filename='lib/js/crossfilter.js') }}"></script>
   <script src="{{ url_for('static', filename='lib/js/d3.js') }}"></script> 
   <script src="{{ url_for('static', filename='lib/js/dc.js') }}"></script>
-  <script src="{{ url_for('static', filename='lib/js/queue.js') }}"></script>
-  <script src="{{ url_for('static', filename='lib/js/keen.min.js') }}"></script>
   <script src="{{ url_for('static', filename='js/graphs.js') }}"></script>
 
 </body>

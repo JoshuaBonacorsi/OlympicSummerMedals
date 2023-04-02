@@ -1,9 +1,13 @@
-#number-projects-nd {
+#total-medals-nd {
+    text-align: center;
     font-size: 60px;
+    color : #6B3779 ;
 }
 
-#total-donations-nd {
+#total-athletes-nd {
+    text-align: center;
     font-size: 60px;
+    color : #A07CD1 ;
 }
 
 .dc-chart g.row text {
