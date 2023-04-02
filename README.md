@@ -1,12 +1,16 @@
 # Summer Olympics Medals Dashboard
 
+https://github.com/JoshuaBonacorsi/SummerOlympicsMedals
+
 ## Présentation
 
-Le projet a pour objectif de créer un site web interactif pour visualiser des données à l'aide des connaissances acquises pendant le cours de Data Vizualisation. Le site permet de naviguer à travers les données et d'explorer différents aspects du sujet à l'aide de graphiques interactifs.
+Le projet a pour objectif de créer un site web interactif pour visualiser des données à l'aide des connaissances acquises pendant le cours de Data Vizualisation. 
+Le site permet de naviguer à travers les données et d'explorer différents aspects du sujet à l'aide de graphiques interactifs.
 
 ## Dataset
 
-Le dataset utilisé est le "Summer Olympics Medals" dataset sur Kaggle. Il provient de https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals, avec des informations sur les médaillés des jeux olympiques d'été entre 1976 et 2008. Le dataset a été prétraité et nettoyé en python avant d'être utilisé pour le site web.
+Le dataset utilisé est le "Summer Olympics Medals" dataset sur Kaggle. 
+Il provient de https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals, avec des informations sur les médaillés des jeux olympiques d'été entre 1976 et 2008. Le dataset a été prétraité et nettoyé en python avant d'être utilisé pour le site web.
 
 ## Librairies utilisées
 
@@ -19,7 +23,8 @@ Le site web utilise les librairies suivantes :
 ## Fonctionnement du site
 
 Le site web permet à l'utilisateur de visualiser les données à travers différents graphiques interactifs. Les graphiques peuvent être filtrés et triés en utilisant des menus déroulants et des curseurs, pour explorer différents aspects des données.
-Le site propose également des tableaux de bord interactifs, qui permettent de visualiser les données sous forme de tableaux, de graphiques et de cartes. Les tableaux de bord peuvent être personnalisés pour répondre aux besoins de l'utilisateur.
+Le site propose également des tableaux de bord interactifs, qui permettent de visualiser les données sous forme de tableaux, de graphiques et de cartes. 
+Les tableaux de bord peuvent être personnalisés pour répondre aux besoins de l'utilisateur.
 
 Pour utiliser le site web, l'utilisateur doit simplement naviguer sur le site et cliquer sur les graphiques afin de filtrer les résultats selon certaines dimensions (pays, type de médailles...). Les graphiques et les tableaux de bord se mettent à jour en temps réel en fonction des choix de l'utilisateur. 
 
