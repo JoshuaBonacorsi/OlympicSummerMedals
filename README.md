@@ -4,7 +4,7 @@ https://github.com/JoshuaBonacorsi/SummerOlympicsMedals
 
 ## Présentation
 
-Le projet a pour objectif de créer un site web interactif pour visualiser des données à l'aide des connaissances acquises pendant le cours de Data Vizualisation. 
+Le projet a pour objectif de créer un site web interactif pour visualiser des données. 
 Le site permet de naviguer à travers les données et d'explorer différents aspects du sujet à l'aide de graphiques interactifs.
 
 ## Dataset
