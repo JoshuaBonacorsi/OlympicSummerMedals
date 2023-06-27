@@ -2,35 +2,34 @@
 
 https://github.com/JoshuaBonacorsi/SummerOlympicsMedals
 
-## Présentation
+## Introduction
 
-Le projet a pour objectif de créer un site web interactif pour visualiser des données à l'aide des connaissances acquises pendant le cours de Data Vizualisation. 
-Le site permet de naviguer à travers les données et d'explorer différents aspects du sujet à l'aide de graphiques interactifs.
+The project aims to create an interactive website for visualizing data.
+The site allows users to navigate through the data and explore various aspects of the subject using interactive graphs.
 
 ## Dataset
 
-Le dataset utilisé est le "Summer Olympics Medals" dataset sur Kaggle. 
+The dataset used is the "Summer Olympics Medals" dataset on Kaggle.
 
-Il provient de https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals, avec des informations sur les médaillés des jeux olympiques d'été entre 1976 et 2008. Le dataset a été prétraité et nettoyé en python avant d'être utilisé pour le site web.
+It is sourced from https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals, providing information on medalists from the Summer Olympics between 1976 and 2008. The dataset has been preprocessed and cleaned in Python before being used for the website.
 
-## Librairies utilisées
+## Libraries Used
 
-Le site web utilise les librairies suivantes :
+The website utilizes the following libraries:
 
-- D3.js : pour la création de graphiques interactifs
-- DC.js : pour la création de tableaux de bord interactifs
-- Crossfilter : pour l'agrégation et la manipulation de données
+- D3.js: for creating interactive graphs
+- DC.js: for creating interactive dashboards
+- Crossfilter: for data aggregation and manipulation
 
-## Fonctionnement du site
+## Website Functionality
 
-Le site web permet à l'utilisateur de visualiser les données à travers différents graphiques interactifs. Les graphiques peuvent être filtrés et triés en utilisant des menus déroulants et des curseurs, pour explorer différents aspects des données.
-Le site propose également des tableaux de bord interactifs, qui permettent de visualiser les données sous forme de tableaux, de graphiques et de cartes. 
-Les tableaux de bord peuvent être personnalisés pour répondre aux besoins de l'utilisateur.
+The website allows users to visualize data through different interactive graphs. The graphs can be filtered and sorted using dropdown menus and sliders to explore various aspects of the data.
+The website also offers interactive dashboards that allow users to view the data in the form of tables, charts, and maps.
+The dashboards can be customized to meet the user's needs.
 
-Pour utiliser le site web, l'utilisateur doit simplement naviguer sur le site et cliquer sur les graphiques afin de filtrer les résultats selon certaines dimensions (pays, type de médailles...). Les graphiques et les tableaux de bord se mettent à jour en temps réel en fonction des choix de l'utilisateur. 
+To use the website, the user simply needs to navigate the site and click on the graphs to filter the results based on certain dimensions (country, medal type, etc.). The graphs and dashboards update in real-time based on the user's selections.
 
-## Installation et exécution
+## Installation and Execution
 
-Toutes les librairies sont stockées en local dans les fichiers du projets.
-
-Il suffit uniquement d'avoir Flask d'installé sur son ordinateur, et de faire un "python app.py" dans le répertoire "Summer Olympics Medals"
+All the libraries are stored locally within the project files.
+To run the website, Flask needs to be installed on the computer, and you need to execute "python app.py" in the "Summer Olympics Medals" directory.
