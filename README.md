@@ -1,6 +1,6 @@
 # Summer Olympics Medals Dashboard
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3ZiNDYxbnJ0cWNtc3dlZGxiOW42OWNhbzgyM25xNzBiYTdib25zMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hAdh3tyP2SxKVlPaTL/giphy.gif" />
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3ZiNDYxbnJ0cWNtc3dlZGxiOW42OWNhbzgyM25xNzBiYTdib25zMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hAdh3tyP2SxKVlPaTL/giphy.gif" width=500, height=500/>
 
 ## Introduction
 
