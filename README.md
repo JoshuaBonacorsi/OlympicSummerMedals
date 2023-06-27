@@ -1,6 +1,6 @@
 # Summer Olympics Medals Dashboard
 
-https://github.com/JoshuaBonacorsi/SummerOlympicsMedals
+![](https://github.com/JoshuaBonacorsi/SummerOlympicsMedals/project.gif)
 
 ## Introduction
 
